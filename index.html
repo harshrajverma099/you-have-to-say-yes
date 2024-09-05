@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You have to say yes</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="min-h-screen flex items-center justify-center bg-pink-900">
+    <div class="p-6 hide bg-pink-800 rounded-lg text-white font-bold text-3xl hover:scale-105 active:scale-105 shadow-red shadow-lg transition-all duration-300">
+        <div class="w-full flex justify-center items-center p-5">
+            <i class="fa-regular fa-heart text-6xl text-pink-300 animate-pulse"></i>
+        </div>
+        Do You Love Me?
+        <div class="w-full flex justify-evenly items-center mt-5">
+            <button id="yess" class="bg-red-600 p-2 rounded-lg hover:bg-red-700 cursor-pointer transition-all duration-300 active:scale-105">Yes</button>
+            <button id="runawayButton" class="bg-green-600 p-2 rounded-lg cursor-pointer hover:bg-green-700 transition-all duration-300 active:scale-105">No</button>
+        </div>
+    </div>
+    <div id="video" class="hidden">
+        <video id="myVideo" width="600" controls>
+            <source src="funny bollywood proposal Raj Kapoor  Padmini 360p.mp4" type="video/mp4">
+          </video>  
+    </div>  
+    <script src="script.js"></script>
+  </body>
+</html>
